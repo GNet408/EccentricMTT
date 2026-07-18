@@ -1,0 +1,905 @@
+/* --------------------------------------------------
+   GLOBAL RESET & BASE
+-------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 120px;
+}
+
+.header-banner {
+    width: 100%;
+    max-width: 1800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-bats {
+    margin-top: 40px; 
+}
+
+/* GLOBAL LAYOUT */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #e6e6e6;
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+nav a {
+    color: #ff2a2a;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* PAGE TITLE */
+.home-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #ff2a2a;
+    margin: 40px 0 20px;
+    text-shadow: 0 0 12px #ff2a2a;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ff2a2a;
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px #ff2a2a;
+}
+
+section p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* BOOK NOW BUTTON */
+.book-btn {
+    display: inline-block;
+    background: #ff2a2a;
+    color: #000;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s ease;
+    margin: 30px 0 60px;
+}
+
+.book-btn:hover {
+    background: #ff3d3d;
+    box-shadow: 0 0 12px #ff2a2a;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.styles-bg {
+    background-image: url("images/your-inline-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px #ff2a2a55;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ff2a2a;
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px #ff2a2a;
+}
+
+section p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #e6e6e6;
+}
+
+
+/* --------------------------------------------------
+   LOGO
+-------------------------------------------------- */
+
+.logo {
+    display:block;
+    max-width: 100%;
+max-height: auto;
+justify-content: center;
+margin: 0 auto;}
+  
+
+/* --------------------------------------------------
+   NAVIGATION 
+-------------------------------------------------- */
+/* BOLD NAV LINKS */
+
+
+.bat-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;        /* bigger */
+    font-weight: 700;         /* bold */
+    letter-spacing: 0.08em;   /* spaced out */
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 6px;
+    border: 2px solid #a8a8a8;
+    background: #000;
+    transition: 0.25s ease;
+}
+.nav-bats {
+    margin-bottom: 120px; /* space under navigation */
+}
+
+.tiktok-wrapper {
+    max-width: 350px;  
+    margin: 40px auto;  
+}
+.tiktok-wrapper {
+    margin-top: 180px;
+}
+
+.tiktok-embed {
+    transform: scale(0.5);       
+    transform-origin: top center; 
+}
+
+/* HOVER EFFECT — RED EMBER GLOW */
+.bat-link:hover {
+    color: #e63946;
+    border-color: #ff3b3b;
+    box-shadow:
+        0 0 12px #ff3b3b,
+        0 0 24px rgba(255, 59, 59, 0.6),
+        0 0 36px rgba(255, 59, 59, 0.4);
+}
+.nav-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px 40px; 
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0;
+}
+
+header {
+    margin-top: 30px;   /* adds space ABOVE the banner */
+    display: block;
+}
+
+
+.nav-grid-3 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.25s ease;
+}
+
+.nav-grid-3 a:hover {
+    color: #ff2a2a;
+    text-shadow: 0 0 8px #ff2a2a, 0 0 16px #ff2a2a;
+}
+.nav-grid-3 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.25s ease;
+}
+
+/* RED EMBER HOVER GLOW */
+.nav-grid-3 a:hover {
+    color: #ff2a2a;
+    text-shadow:
+        0 0 6px #ff2a2a,
+        0 0 12px #ff2a2a,
+        0 0 20px #ff2a2a,
+        0 0 30px #ff2a2a;
+    transform: scale(1.05);
+}
+.nav-grid-3 a {
+    background: rgba(216, 7, 7, 0.854);
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.nav-grid-3 a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* --- NAVIGATION GRID --- */
+.nav-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px 40px;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0;
+}
+header {
+    margin-top: 30px;   /* adds space ABOVE the banner */
+    display: block;
+}
+
+
+
+/* --- RED EMBER HOVER GLOW --- */
+.nav-grid-3 a:hover {
+    color: #ff2a2a;
+    text-shadow:
+        0 0 6px #ff2a2a,
+        0 0 12px #ff2a2a,
+        0 0 20px #ff2a2a,
+        0 0 30px #ff2a2a;
+    transform: scale(1.05);
+}
+
+/* --------------------------------------------------
+   PAGE TITLES
+-------------------------------------------------- */
+.pricing-bg {
+    background-image: url("images/pricing-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px #ff2a2a55;
+}
+:root {
+    --bg: #000000;
+    --text: #e6e6e6;
+    --accent: #ff2a2a;
+    --accent-glow: #ff2a2a88;
+    --section-bg: #111;
+}
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+/* Page Title */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: .3rem;
+}
+
+ul, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+
+
+.home-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #ff2a2a;
+    text-align: center;
+    margin: 60px 0 30px;
+    text-shadow: 0 0 12px #ff2a2a;
+}
+
+
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ff2a2a;
+    text-align: center;
+    margin: 50px 0 15px;
+    text-shadow: 0 0 8px #ff2a2a;
+}
+
+
+
+.page-title h1 {
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.centered-block {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cta-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.book-btn {
+    display: inline-block;
+    background: #ff2a2a;
+    color: #000;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.book-btn:hover {
+    background: #ff3d3d;
+    box-shadow: 0 0 12px #ff2a2a;
+}
+
+/* --------------------------------------------------
+   HERO SECTION
+-------------------------------------------------- */
+.session-banner {
+ 
+    width: 100%;
+    max-width: 1800px;
+
+    display: block;
+    margin: 40px auto 40px;
+margin-top: 90px;
+    border-radius: 12px;
+}
+
+.hero {
+    text-align: center;
+    margin: 40px 0 80px;
+}
+
+.hero-logo {
+    font-family: "Cinzel", serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.hero-motto {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+
+
+.studio-section {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.studio-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+.studio-image {
+    width: 300px;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+section p {
+    color: #e6e6e6;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+section {
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ff2a2a;
+    text-align: center;
+    margin: 50px 0 15px;
+    text-shadow: 0 0 8px #ff2a2a;
+}
+section {
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* --------------------------------------------------
+   BUTTONS
+-------------------------------------------------- */
+
+
+
+.book-btn {
+    display: inline-block;
+    background: #ff2a2a;
+    color: #000;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s ease;
+    margin-top: 20px;
+}
+
+.book-btn:hover {
+    background: #ff3d3d;
+    box-shadow: 0 0 12px #ff2a2a;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 999px;
+    border: 1px solid #e63946;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    color: #e63946;
+    border-color: #ff3b3b;
+    box-shadow: 0 0 12px #ff3b3b, 0 0 24px rgba(255, 59, 59, 0.6);
+}
+
+/* --------------------------------------------------
+   ABOUT PAGE — ARTIST GRID
+-------------------------------------------------- */
+.artist-block {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.artist-photo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+.artist-photo:hover {
+    filter: drop-shadow(0 0 10px red);
+    transform: scale(1.03);
+    transition: 0.2s ease;
+}
+
+.about-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.artist-divider {
+    width: 100%;
+    max-width: 700px;
+    height: 1px;
+    background: #333;
+    margin: 50px auto;
+}
+
+.artist-card {
+    flex: 1 1 260px;
+    max-width: 320px;
+    border: 1px solid #a8a8a8;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+}
+.artists-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 60px 0 40px;
+    letter-spacing: 0.05em;
+}
+
+.artist-name {
+    font-family: "Cinzel", serif;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.artist-style {
+    color: #a8a8a8;
+    margin-bottom: 12px;
+}
+.artist-gallery-section {
+    text-align: center;
+    margin: 80px auto;   
+}
+
+.artist-gallery-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px; 
+    letter-spacing: 0.05em;
+}
+.gallery-divider {
+    width: 100%;
+    max-width: 700px;
+    height: 1px;
+    background: #333;
+    margin: 60px auto;
+}
+.artist-gallery-section {
+    text-align: center;
+    margin: 80px auto;
+    padding: 0 40px;   
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;   
+}
+.gallery-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* --------------------------------------------------
+   GALLERY PAGE
+-------------------------------------------------- */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    flex: 1 1 260px;
+    max-width: 320px;
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.gallery-photo {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-caption {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.artist-gallery-section {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.artist-gallery-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+/* --------------------------------------------------
+   SERVICES PAGE
+-------------------------------------------------- */
+
+.services-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.services-col {
+    flex: 1 1 320px;
+    min-width: 280px;
+}
+
+.services-col h2 {
+    font-family: "Cinzel", serif;
+    margin-bottom: 10px;
+}
+.about-studio {
+    text-align: center;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 1.6;
+}
+
+.about-studio h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+/* --------------------------------------------------
+   CONTACT PAGE — FORM
+-------------------------------------------------- */
+
+.form-wrapper {
+    max-width: 600px;
+    margin: 40px auto 80px;
+    padding: 24px;
+    border-radius: 16px;
+    background: rgba(217, 217, 217, 0.08);
+    border: 1px solid #a8a8a8;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.required {
+    color: #e63946;
+}
+
+input,
+select,
+textarea {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #a8a8a8;
+    background: #000;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+section {
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+/* --------------------------------------------------
+   CONTACT INFO GRID
+-------------------------------------------------- */
+
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.contact-block {
+    flex: 1 1 260px;
+    min-width: 260px;
+}
+
+.map-placeholder {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #a8a8a8;
+    background: #111;
+}
+
+/* --------------------------------------------------
+   HOSTING PAGE
+-------------------------------------------------- */
+
+.folder-structure {
+    background: #111;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #a8a8a8;
+    text-align: left;
+    overflow-x: auto;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+
+footer {
+    background: #000;
+    padding: 40px 20px 20px;
+    text-align: center;
+}
+
+.footer-banner-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-banner {
+    max-width: 1800px;
+    width: 100%;
+    height: auto;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------
+   RESPONSIVE (MOBILE)
+-------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .hero-guns {
+        flex-direction: column;
+    }
+
+    .services-columns {
+        flex-direction: column;
+    }
+
+    .contact-grid {
+        flex-direction: column;
+    }
+}

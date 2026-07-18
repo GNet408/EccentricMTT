@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eccentric Modern Therapy Tattoo – Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <img src="images/header-banner.jpg" alt="Eccentric Modern Therapy Tattoo banner" class="header-banner">
+
+ <nav class="nav-grid-3">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="hosting.html">Hosting</a>
+</nav>
+
+
+
+</header>
+
+
+<main>
+
+<section class="page-title">
+    <h1>Gallery</h1>
+    <p class="centered-block">
+        A curated selection of custom tattoos created by our artists.  
+        All images shown here are optimized for fast loading and high clarity.
+    </p>
+</section>
+
+<section class="gallery-section">
+
+    <div class="gallery-grid">
+<section id="jean-grid" class="artist-gallery-section">
+    <h2>Jean</h2>
+
+    <div class="gallery-grid">
+        <img src="images/jean1.jpg" alt="Jean Tattoo 1">
+        <img src="images/jean2.jpg" alt="Jean Tattoo 2">
+        <img src="images/jean3.jpg" alt="Jean Tattoo 3">
+
+        <img src="images/jean4.jpg" alt="Jean Tattoo 4">
+        <img src="images/jean5.jpg" alt="Jean Tattoo 5">
+        <img src="images/jean6.jpg" alt="Jean Tattoo 6">
+
+        <img src="images/jean7.jpg" alt="Jean Tattoo 7">
+        <img src="images/jean8.jpg" alt="Jean Tattoo 8">
+        <img src="images/jean9.jpg" alt="Jean Tattoo 9">
+    </div>
+</section>
+<div class="gallery-divider"></div>
+
+
+<section id="athena-grid" class="artist-gallery-section">
+    <h2>Athena</h2>
+
+    <div class="gallery-grid">
+        <img src="images/athena1.jpg" alt="Athena Tattoo 1">
+        <img src="images/athena2.jpg" alt="Athena Tattoo 2">
+        <img src="images/athena3.jpg" alt="Athena Tattoo 3">
+
+        <img src="images/athena4.jpg" alt="Athena Tattoo 4">
+        <img src="images/athena5.jpg" alt="Athena Tattoo 5">
+        <img src="images/athena6.jpg" alt="Athena Tattoo 6">
+
+        <img src="images/athena7.jpg" alt="Athena Tattoo 7">
+        <img src="images/athena8.jpg" alt="Athena Tattoo 8">
+        <img src="images/athena9.jpg" alt="Athena Tattoo 9">
+    </div>
+</section>
+
+<div class="gallery-divider"></div>
+
+<section id="josie-grid" class="artist-gallery-section">
+    <h2>Josie</h2>
+
+    <div class="gallery-grid">
+        <img src="images/josie1.jpg" alt="Josie Tattoo 1">
+        <img src="images/josie2.jpg" alt="Josie Tattoo 2">
+        <img src="images/josie3.jpg" alt="Josie Tattoo 3">
+
+        <img src="images/josie4.jpg" alt="Josie Tattoo 4">
+        <img src="images/josie5.jpg" alt="Josie Tattoo 5">
+        <img src="images/josie6.jpg" alt="Josie Tattoo 6">
+
+        <img src="images/josie7.jpg" alt="Josie Tattoo 7">
+        <img src="images/josie8.jpg" alt="Josie Tattoo 8">
+        <img src="images/josie9.jpg" alt="Josie Tattoo 9">
+    </div>
+</section>
+
+
+        </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <footer>
+    <div class="footer-banner-wrap">
+        <img src="images/footer-banner.jpg" alt="Footer banner" class="footer-banner">
+    </div>
+
+    
+
+  
+</footer>
+
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img">
+</div>
+<script>
+document.querySelectorAll('.gallery-grid img').forEach(img => {
+    img.addEventListener('click', () => {
+        document.getElementById('lightbox-img').src = img.src;
+        document.getElementById('lightbox').style.display = 'flex';
+    });
+});
+
+document.querySelector('.lightbox .close').addEventListener('click', () => {
+    document.getElementById('lightbox').style.display = 'none';
+});
+</script>
+
+</body>
+</html>
