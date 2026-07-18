@@ -2,12 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Eccentric Modern Therapy Tattoo – Web Hosting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting Information</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            border-bottom: 1px solid #333;
+        }
+
+        h2 {
+            color: #b30000;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        p, pre {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #e60000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            margin: 20px 0;
+            border: 2px solid #b30000;
+            border-radius: 6px;
+        }
+    </style>
 </head>
 
 <body>
+
 
 <header>
     <img src="images/header-banner.jpg" alt="Eccentric Modern Therapy Tattoo banner" class="header-banner">
@@ -20,128 +68,71 @@
     <a href="contact.html">Contact</a>
     <a href="hosting.html">Hosting</a>
 </nav>
-
-
 </header>
 
-<main>
-
-<section class="page-title">
-    <h1>Web Hosting Information</h1>
-    <p class="centered-block">
-        This page explains where my website is hosted, how I uploaded my files, and the folder
-        structure used for my final project. This documentation is required for GDES 45.
-    </p>
+<!-- MAIN CONTENT -->
+<section>
+    <h2>Hosting Provider</h2>
+    <p>My website is hosted using <strong>GitHub Pages</strong></p>
 </section>
 
-<section class="hosting-section centered-block">
+<section>
+    <h2>Final Website URL</h2>
+    <p>This is the live link to my website:</p>
+    <p><a href="https://gnet408.github.io/EccentricMTT/">https://gnet408.github.io/EccentricMTT/</a></p>
+</section>
 
-    <h2>What Is Web Hosting</h2>
-    <p>
-        Web hosting is a service that stores website files on a server so they can be accessed online.
-        When someone types your domain name into a browser, the hosting server delivers your HTML,
-        CSS, images, and other files to the visitor’s device.
-    </p>
+<section class="logo">
+    <img src="images/Logo.jpg" alt="company logo" class="logo">
 
-    <h2>Where My Website Is Hosted</h2>
-    <p>
-        My website is hosted on <strong>[INSERT YOUR HOSTING PROVIDER HERE]</strong>.  
-        This hosting service allows me to upload my project files and make my website publicly
-        accessible on the internet.
-    </p>
 
-    <p>
-        My final website URL is:<br>
-        <strong>[INSERT YOUR FINAL URL HERE]</strong>
-    </p>
-
+<section>
     <h2>How I Uploaded My Files</h2>
-    <p>
-        I uploaded my files using the hosting file manager provided by my hosting service.  
-        I placed all HTML files and my <strong>styles.css</strong> file directly inside the main
-        hosting directory (often called <strong>public_html</strong>).
-    </p>
-
-    <p>
-        My images were uploaded into a separate folder named <strong>/images</strong>.
-    </p>
-
-    <h2>Final Project Folder Structure</h2>
-
-    <pre class="folder-structure">
-/EccentricModernTherapyTattoo
-│
-├── index.html
-├── about.html
-├── gallery.html
-├── services.html
-├── contact.html
-├── hosting.html
-│
-├── styles.css
-│
-└── /images
-      ├── gun-left.webp
-      ├── gun-right.webp
-      ├── artist-jean.webp
-      ├── artist-athena.webp
-      ├── artist-josie.webp
-      ├── studio-interior.webp
-      ├── exterior.webp
-      ├── gallery-1.webp
-      ├── gallery-2.webp
-      ├── gallery-3.webp
-      ├── gallery-4.webp
-      ├── gallery-5.webp
-      └── gallery-6.webp
-    </pre>
-
-    <h2>Screenshots</h2>
-    <p>
-        Below are placeholders for required screenshots.  
-        Replace these with your actual hosting screenshots before submitting your project.
-    </p>
-
-    <div class="gallery-grid">
-
-        <div class="gallery-item">
-            <img src="images/hosting-screenshot-1.jpg" 
-                 alt="Screenshot of hosting dashboard" 
-                 class="gallery-photo">
-            <div class="gallery-caption">Hosting Dashboard</div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/hosting-screenshot-2.jpg" 
-                 alt="Screenshot of file manager showing project files" 
-                 class="gallery-photo">
-            <div class="gallery-caption">File Manager</div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/hosting-screenshot-3.jpg" 
-                 alt="Screenshot of uploaded project folder" 
-                 class="gallery-photo">
-            <div class="gallery-caption">Uploaded Project Folder</div>
-        </div>
-
-    </div>
-
+    <p>I created a GitHub repository and uploaded all my project files using the “Upload files” option. 
+       After uploading, I enabled GitHub Pages by selecting the <strong>main</strong> branch and the 
+       <strong>/root</strong> folder under the Pages settings. GitHub then generated my live website URL.</p>
 </section>
 
-</main>
+
+
+
+<section>
+    <h2>Project Folder Structure</h2>
+    <pre>
+EccentricMTT/
+│ index.html
+│ about.html
+│ services.html
+│ gallery.html
+│ contact.html
+│ hosting.html
+│ styles.css
+│
+└── images/
+    ├── header-banner.jpg
+    ├── footer-banner.jpg
+    ├── jean1.jpg
+    ├── jean2.jpg
+    ├── athena1.jpg
+    ├── josie1.jpg
+    └── (other images)
+    </pre>
+</section>
+
+
+
+
+
 
 <footer>
-    <footer>
     <div class="footer-banner-wrap">
         <img src="images/footer-banner.jpg" alt="Footer banner" class="footer-banner">
     </div>
 
-   
+  
 
    
 </footer>
-
 
 </body>
 </html>

@@ -28,17 +28,19 @@
 
 <main>
 
-<section class="page-title">
+
+<div>
+    
     <h1>Gallery</h1>
     <p class="centered-block">
         A curated selection of custom tattoos created by our artists.  
         All images shown here are optimized for fast loading and high clarity.
     </p>
-</section>
+</div>
 
-<section class="gallery-section">
 
-    <div class="gallery-grid">
+
+    <div class="gallery-grid"></div>
 <section id="jean-grid" class="artist-gallery-section">
     <h2>Jean</h2>
 
@@ -98,17 +100,10 @@
 </section>
 
 
-        </div>
-
-        </div>
-
-    </div>
-
-</section>
 
 </main>
 
-<footer>
+
     <footer>
     <div class="footer-banner-wrap">
         <img src="images/footer-banner.jpg" alt="Footer banner" class="footer-banner">
@@ -120,12 +115,13 @@
 </footer>
 
 <div id="lightbox" class="lightbox">
-    <span class="close">&times;</span>
-    <img class="lightbox-img" id="lightbox-img">
+<span class="close">&times;</span>
+<img class="lightbox-img" id="lightbox-img">
 </div>
 <script>
+    alt:
 document.querySelectorAll('.gallery-grid img').forEach(img => {
-    img.addEventListener('click', () => {
+ img.addEventListener('click', () => {
         document.getElementById('lightbox-img').src = img.src;
         document.getElementById('lightbox').style.display = 'flex';
     });
